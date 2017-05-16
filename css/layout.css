@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+    max-width: 1924px;
+    margin: 0 auto
+	width: 100%;
+
+}
+body {
+    margin-bottom: 80px;
+}
+header{
+	height:70px;
+	margin: 1px 1px 1px 1px;
+	padding: 20px 1px 1px 1px;
+}
+#logo a {
+	margin-left: 30px;
+	float: left;
+}
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li a {
+	font-size: 20px;
+	padding: 0 30px;
+}
+main {
+text-align: center;
+}
+#home  {
+	font-size: 30px;
+	height:400px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
+}
+.zakaz {
+	margin: 100px;
+	float: right;
+}
+#aboute_us  {
+	line-height: 1.5;
+	padding: 30px;
+}
+.aboute_1 {
+	display: flex;
+	justify-content: space-around;
+}
+.aboute_01 {
+	display: flex;
+	justify-content: space-around;
+}
+.aboute_2 {
+	display: flex;
+	justify-content: space-around;
+}
+.aboute_02 {
+	display: flex;
+	justify-content: space-around;
+}
+
+#contact {
+	line-height: 1.5;
+	padding: 30px;
+}
+.contact{
+    display: flex;
+	justify-content: space-around;
+}
+.info{
+	margin: 20px 0px 0px 30px;
+	float: left;
+}
+.map {
+	display: flex;
+	justify-content: center;
+}
+	
+	.form {
+	display: flex;
+	justify-content: flex-start;
+	line-height: 1.5;
+	padding: 30px;
+}
+#prices table {
+	margin: auto;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+footer {
+ text-align: center;
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 95px;
+
+  width: 100%;
+}

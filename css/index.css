@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+    max-width: 1924px;
+    margin: 0 auto
+	width: 100%;
+
+}
+body {
+    margin-bottom: 80px;
+	background:
+    #D3D4D8
+   
+    
+}
+header{
+	height:70px;
+	margin: 1px 1px 1px 1px;
+	padding: 20px 1px 1px 1px;
+}
+#logo a {
+	margin-left: 30px;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+	text-shadow: 0 1px 0 white;
+	color: #373e47;
+}
+
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #143567;
+	text-shadow: 0 1px 0 white;
+}
+
+nav li a:hover {
+	color: #3FBAC2;
+} 
+
+footer {
+ text-align: center;
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 95px;
+  background-color: #4D606E;
+  width: 100%;
+}
+
+#home  {
+	font-size: 30px;
+	height:400px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
+}
+ p {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #143567;
+	text-shadow: 0 1px 0 white;
+}
+
+.button {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#3FBAC2), to(#ECF0F1));
+    padding: 3px 7px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+.zakaz {
+	margin: 100px;
+	float: right;
+}
+
+#aboute_us  {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#prices {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#contact {
+	border-top-style: : solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+	.form {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+#prices table {
+		border-top-style: solid;
+	margin: auto;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #3FBAC2;
+    color: white;
+}
+
+.contact_form {
+	background-color: #f2f2f2;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px 0px 180px;
+    display: inline-grid;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #3FBAC2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px 0px 180px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4D606E;
+}
+input[type=reset] {
+    width: 100%;
+    background-color: #3FBAC2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px 0px 180px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #4D606E;
+}
+
