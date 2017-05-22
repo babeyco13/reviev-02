@@ -3,68 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <title>Reitar</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/layout.css">
- </head>
-<body>
-<header>
- <div id="logo">
-  <span>
-  <a href="index.html">Ремонт комп`ютерної техніки</a>
-  </span>
- </div>
-  <nav>
-    <ul>
-     <li><a href="#home">Головна</a></li>
-     <li><a href="#aboute_us">Про нас</a></li>
-     <li><a href="#prices">Ціни</a></li>
-     <li><a href="#contact">Контакти</a></li>
-    </ul>
-  </nav>
-</header> 
-<main>
-  <section id="home">
-    <img  src="images/slide1.jpg"  alt="computer" />
-      <div class="zakaz">
-          <p>Ремонт комп`ютерної техніки</p>
-          <a class="button" href="#request">Замовити</a>
-      </div>
-  </section>
-  <section id="aboute_us">
-   <h1>НАС ОБИРАЮТЬ ТОМУ ЩО:</h1>
-       <figure>
-         <div class=aboute_1>
-         <img src="images/garante.jpg" alt="call" height="225" width="200"> 
-         <img src="images/work.jpg" alt="visit"  height="225" width="200"> 
-         <img src="images/price.jpg" alt="diagnosis" height="225" width="200">
-         </div>
-         <div class=aboute_01>
-         <h3>НАДАЄМО ГАРАНТІЇ</h3>
-         <h3>ОПЕРАТИВНА РОБОТА</h3>
-         <h3>ХОРОШІ ЦІНИ</h3>
-         </div>
-   <h1>ПРИНЦИПИ</h1>
-   <h3>Як ми працюэмо?</h3>
-       <figure>
-       <div class="aboute_22">
-          <div class="aboute_2">
-           <img src="images/step1.jpg" alt="call" width="350"> 
-           <img src="images/step2.jpg" alt="visit" width="350"> 
-           <img src="images/step3.jpg" alt="diagnosis" width="350">  
-           <img src="images/step4.jpg" alt="delivery" width="350"> 
-           </div>
-           <div class="aboute_02">
-           <h3>ЗАЯВКА</h3> 
-           <h3>ВИЇЗД</h3> 
-           <h3>РЕМОНТ</h3> 
-           <h3>ДОСТАВКА</h3>
-           </div>
-           </div>
-       </figure>
- </section> 
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/index.1.css" type="text/css" />
+
+</head>
+<body id="page">
+
+    <div class="container">
+        
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page">Reitar</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#page"><span class="glyphicon glyphicon-home"></span> Головна</a></li>
+                        <li><a href="#about">Про нас</a></li>
+                        <li><a href="#prices">Ціни</a></li>
+                        <li><a href="#contact">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/images/slide1.jpg" alt="Cat">
+                    <div class="carousel-caption">
+                  </div>
+                </div>
+        
+                <div class="item">
+                    <img src="/images/slide3.jpg" alt="Cat">
+                </div>
+        
+                <div class="item">
+                    <img src="/images/slide3.jpg" alt="Cat">
+                </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="jumbotron">
+             <h1>Ремонт комп`ютерної техніки</h1>
+             <p>Наш сервіс проведе ремонт будь-яких моделей та виробників</p>
+             <p><a class="btn btn-primary btn-lg" href="#request" role="button">Замовити</a></p>
+       </div>
+      
+           <section id="about">
+        <div class="container">
+            <div class="row1">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">ПРИНЦИПИ</h1>
+                    <h2 class="section-subheading text-muted">Як ми працюємо?</h2>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive" src="images/phone-call.png" alt="Zaiavka">
+                <div class="caption">
+                 <h1>ЗАЯВКА</h1>
+                </div>
+              </div>
+            </div>
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive" src="images/van1.png" alt="Viizd">
+                <div class="caption">
+                 <h1>ВИЇЗД</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive" src="images/wrench.png" alt="Remont">
+                <div class="caption">
+                 <h1>РЕМОНТ</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive" src="images/van.png" alt="Dostavca">
+                <div class="caption">
+                 <h1>ДОСТАВКА</h1>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">НАС ОБИРАЮТЬ ТОМУ ЩО:</h1>
+                </div>
+            </div>
+            <div class="about">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive"src="images/deal.png" alt="Zaiavka" >
+                <div class="caption">
+                 <h1>НАДАЄМО ГАРАНТІЇ</h1>
+                </div>
+              </div>
+            </div>
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive" src="images/target.png" alt="Viizd">
+                <div class="caption">
+                 <h1>ЕФЕКТИВНА РОБОТА</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive" src="images/computer.png" alt="Remont">
+                <div class="caption">
+                 <h1>ЯКІСНИЙ СЕРВІС</h1>
+                </div>
+              </div>
+            </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 wow bounceInLeft">
+              <div class="thumbnail" >
+                <img class="img-responsive" src="images/profits.png" alt="Remont">
+                <div class="caption">
+                 <h1>ХОРОШІ ЦІНИ</h1>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            </div>
+    </section>
  <section id="prices">
- <h1>ЦІНИ:</h1>
- <table border="1">
+ <div class="panel panel-default">
+ <div class="panel-heading">ЦІНИ:</div>
+<table class="table">
 	   <tr>
 	   	    <th>Послуги</th><th>Ціни</th>
 	   </tr>
@@ -107,51 +208,90 @@
 	    <tr>
 	   	     <td colspan="2">Ціни указані без урахування вартості запчастин!</td>
 	   </tr>
-	 </table>
- </section>
- <section id="contact">
- <div class="contact">
- <div class="info">
- <h1>КОНТАКТИ:</h1>
- <h3>Телефони нашого офісу:<p>+38095588286</p></h3>
- <h3>E-mail:<p>babeyco@ukr.net</p></h3>
- <h3>Адреса нашого офісу:<p>м.Львів,вул.Зелена 40</p></h3>
+	  </table>
+</div>
+ <section id="contact ">
+ <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h1 class="panel-title">Контакти:</h1>
+  </div>
+  <div class="panel-body">
+ <div class="media">
+  <div class="media-left">
+  
+    <a href="#">
+      <iframe class="media-object" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.5848246559317!2d24.039929715763837!3d49.831467939651475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5cc977ac3b%3A0x11590744873f7352!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNDAsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1494088452129" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </a>
+  </div>
+  <div class="media-body">
+    <h3>Телефон нашого офісу:<p>+38095588286</p></h3>
+    <h3>E-mail:<p>babeyco@ukr.net</p></h3>
+   <h3>Адреса нашого офісу:<p>м.Львів,вул.Зелена 40</p></h3>
+  </div>
+</div>
  </div>
- <div class="map">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.5848246559317!2d24.039929715763837!3d49.831467939651475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5cc977ac3b%3A0x11590744873f7352!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNDAsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1494088452129" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
- </div>
- </section>
+</div>
+</section>
  <section id="request">
- <h1>ОФОРМЛЕННЯ ЗАЯВКИ:</h1>
-  <div class="form">
-  <form  method="POST" action="https://formspree.io/babeyco13@ukr.net">
-    
-        <div class="contact_form">
-                <label for="name">Name:</label>
-                       <input type="text" id="name" name="name" required placeholder="Ім`я">
-                <label for="email">E-mail:</label>
-                       <input type="email" id="email" name="client-email" required  placeholder="E-mail"> 
-                <label for="number">Number:</label>
-                <input type="text" id="number" name="number" required pattern="\+380[0-9]{9}"
-                 placeholder="Телефон" title="+38(XXX)XXX-XX-XX">
+ <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">ОФОРМЛЕННЯ ЗАЯВКИ</h1>
+  <form  method="POST" action="https://formspree.io/babeyco13@ukr.net" role="form">
+    <div class="contact_form">
+                <div class="input-group">
+                 <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control"  name="name" required placeholder="Ім`я" aria-describedby="sizing-addon2" >
+                       </div>
+                <div class="input-group">
+                 <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-envelope"></span></span>
+                       <input type="email" class="form-control" id="email" name="client-email" required  placeholder="E-mail" aria-describedby="sizing-addon2"> 
+                </div>
+                <div class="input-group">
+                 <span class="input-group-addon" id="sizing-addon3"><span class="glyphicon glyphicon-phone-alt"></span></span>
+                <input type="text" class="form-control" id="numb er" name="number" required pattern="\+380[0-9]{9}"
+                 placeholder="Телефон" aria-describedby="sizing-addon2" title="+38(XXX)XXX-XX-XX">
+            </div>
+               <div class="form-group">
+                  <label for="comment">Опис поломки:</label>
+                  <textarea class="form-control" rows="5" id="comment" placeholder="Не включається ноутбук"></textarea>
+              </div>
         </div>
-        <input type="submit">
-        <input type="reset">
+        <input type="submit" class="btn btn-primary">
+        <input type="reset" class="btn btn-primary">
         </form>
-        </div>
   </section>
   </main>
-  <footer>
-  <h1>Ми в соціальних мережах</h1>
-  <a href="https://www.youtube.com/" target="_blank">
-     <img src="images/youtube.jpg" alt="youtub" width="50">
-    </a>
-   <a href="https://www.facebook.com/profile.php?id=100009074934321" target="_blank">
-     <img src="images/facebook.jpg" alt="facebook" width="50">
-    </a>
-   <a href="https://vk.com/babiy_vlad13" target="_blank">
-     <img src="images/vk.jpg" alt="vk" width="50">
-    </a>
-  </footer> 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">&copy; Reitar 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><img  src="images/facebook.png" class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><img  src="images/instagram.png" class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><img  src="images/youtube.png" class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#page">Головна сторінка</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/collapse-navbar.js"></script>
+    
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/wow.init.js"></script>
 </body>
 </html>

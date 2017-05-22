@@ -1,0 +1,48 @@
+
+.carousel-inner img {
+    margin: 0 auto;
+    max-height: 375px;
+}
+.thumbnail{
+  text-align: center;
+}
+.input-group{
+line-height: 1.5;
+padding: 10px 1px 1px 1px;
+}
+footer {
+  padding: 35px 0;
+  margin:20px 0px 0px 0px;
+  text-align: center;
+  background-color: grey;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
+.panel-heading {
+        text-align: center;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: grey}
+
+th {
+    background-color: #3FBAC2;
+    color: white;
+}
+
